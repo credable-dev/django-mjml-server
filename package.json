@@ -1,0 +1,15 @@
+{
+  "name": "django_mjml_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node tcpserver.js",
+    "build": "npm install"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "mjml": "^3.3.5"
+  }
+}
