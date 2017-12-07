@@ -2,9 +2,9 @@
   "name": "django_mjml_server",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "mjml-server.js",
   "scripts": {
-    "start": "node tcpserver.js",
+    "start": "node mjml-server.js 28101 0.0.0.0",
     "build": "npm install"
   },
   "author": "",

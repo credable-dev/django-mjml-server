@@ -1,1 +1,0 @@
-django-mjml==0.3.2                               # https://github.com/liminspace/django-mjml

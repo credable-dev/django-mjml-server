@@ -7,7 +7,7 @@ COPY ./packag*.json /django-mjml-server/
 RUN npm install
 
 # Copy the server module.
-COPY .venv/lib/python3.6/site-packages/mjml/node/tcpserver.js /django-mjml-server/
+COPY mjml-server.js /django-mjml-server/
 
 ENTRYPOINT ["npm"]
 CMD ["start"]
